@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function GetQueryString(name) {
+                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+                var arr = window.location.search.substr(1).match(reg);
+                if (arr != null) {
+                    return decodeURIComponent(arr[2])
+                };
+                return null;
+           };
+           var debug = GetQueryString('debug'); //软件版本
+           var softfrom = GetQueryString('softfrom'); //用户来源
+            
+           if (debug == 'true' && softfrom == 'baiduip') {
+                alert(111)
+            }else{
+                alert(222)
+            }
+		</script>
+	</body>
+</html>

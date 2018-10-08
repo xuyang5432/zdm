@@ -1,0 +1,533 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+i{
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+
+/*头部样式*/
+
+.head{
+	height: 100%;
+	width: 100%;
+	background: url(../images/head_bk.png) no-repeat center;
+}
+.head_center{
+	height: 634px;
+	width: 1000px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.head_center .tel{
+	font-size: 16px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 16px;
+	color: white;
+}
+.head_center .succse{
+	text-align: center;
+	margin-top: 170px;
+	color: #d0ba56;
+	font-size: 18px;
+	margin-bottom: 26px;
+}
+.head_center .pheadbox{
+	text-align: center;
+	line-height: 27px;
+	font-size: 14px;
+	color: #eeeff0;
+}
+.head_center .money{
+	font-size: 44px;
+	color: #e6ce61;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 100px;
+}
+.head_center .btn{
+	width: 200px;
+	height: 60px;
+	display: block;
+	background: #ed0101;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	line-height: 60px;
+	margin: 20px auto;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+/*课程安排样式*/
+
+.whitebox{
+	height: 100%;
+	width: 100%;
+}
+.w_center{
+	height: 448px;
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.classbox{
+	position: absolute;
+	height: 333px;
+	width: 1000px;
+	top: -74px;
+	background: white;
+	border-radius: 10px;
+	padding-top: 32px;
+	box-shadow: 0px 5px 10px #b8daf8;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#b8daf8', Direction=135, Strength=10);
+}
+.icon_class_box{
+	width: 197px;
+	height: 35px;
+	margin: 0px auto;
+}
+.icon_class_box .iconclassbox{
+	width: 39px;
+	height: 30px;
+	display: inline-block;
+	float: left;
+	margin-top: 2px;
+}
+.icon_class_box span{
+	float: right;
+	line-height: 35px;
+	font-size: 34px;
+	color: #056ce0;
+}
+.class_bottom_box{
+	margin-top: 40px;
+}
+.classbox .class_bottom_box .xxlgg{
+	font-size: 18px;
+	color: #000000;
+	margin-left: 186px;
+	line-height: 44px;
+}
+.classbox .class_bottom_box .xxlgg span{
+	color: #056ce0;
+}
+
+.new_old_box{
+	height: 88px;
+	width: 916px;
+	background: white;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-left: 84px;
+	position: absolute;
+	bottom: 38px;
+	box-shadow: 0px 10px 10px #b8daf8;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#b8daf8', Direction=135, Strength=10);
+}
+.new_old_box .new_old_height{
+	font-size: 12px;
+	color: #636464;
+	line-height: 24px;
+}
+.new_old_box p span{
+	color: #056ce0;
+}
+
+/*天龙战法样式*/
+.tlzfbox{
+	height: 100%;
+	width: 100%;
+	background: url(../images/tlzf_bk.png) no-repeat center;
+}
+.tl_center{
+	width: 1000px;
+	height: 881px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.tl_center .tlzfh2{
+	text-align: center;
+	color: #f9ddb6;
+	font-size: 40px;
+	margin-top: 40px;
+	font-weight: 400;
+}
+.tl_center .tlzfh3{
+	text-align: center;
+	color: #f9ddb6;
+	font-size: 18px;
+	margin-top: 27px;
+	font-weight: 400;
+}
+.tl_center .tlzfhp{
+	color: #f9ddb6;
+	margin-top: 45px;
+	margin-left: 21px;
+	margin-right: 13px;
+	font-size: 13px;
+	line-height: 31px;
+	letter-spacing: 1px;
+}
+.tl_center .tlzf_img_box{
+	width: 1000px;
+	height: 523px;
+	margin-top: 24px;
+}
+
+/*天龙直播样式*/
+
+.video{
+	height: 100%;
+	width: 100%;
+	background: white;
+}
+.video_center{
+	width: 1000px;
+	height: 606px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.vc_box{
+	top: 60px;
+	position: relative;
+}
+.vc_box .video_img_box{
+	width: 1000px;
+	height: 500px;
+}
+.video_font_box{
+	position: absolute;
+	width: 808px;
+	height: 373px;
+	top: 73px;
+	left: 96px;
+}
+.vc_box .video_font_box .tlzbh2{
+	font-size: 56px;
+	color: white;
+	text-align: center;
+	font-weight: 400;
+}
+.vc_box .gscp{
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+.vc_box .four_d .iconbox{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	float: left;
+	margin-right: 18px
+}
+.vc_box .four_d span{
+	float: right;
+	line-height: 25px;
+	font-size: 19px;
+	color: #FFFFFF;
+}
+.vc_box .div1{
+	float: left;
+	margin-top: 75px;
+}
+.vc_box .div3{
+	float: left;
+	margin-top: 33px;
+}
+.vc_box .div2{
+	float: right;
+	margin-top: 75px;
+}
+.vc_box .div4{
+	float: right;
+	margin-top: 33px;
+}
+.vc_box .video_font_box .play{
+	width: 63px;
+	height: 63px;
+	display: block;
+	position: absolute;
+	bottom:0px;
+	left: 366px;
+	cursor: pointer;
+}
+
+/*天龙股票池样式*/
+
+.gpc{
+	height: 352px;
+	background: #f0c543;
+	overflow: hidden;
+}
+.gpc .gph_h2{
+	margin-top: 52px;
+	font-size: 37px;
+	color: #403e3e;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+.gpc .gph_p{
+	font-size: 14px;
+	line-height: 25px;
+	width: 606px;
+	margin: 0 auto;
+	color: #4c473e;
+}
+
+/*高端专享样式*/
+
+.high-end{
+	height: 100%;
+	width: 100%;
+}
+.high-end_center{
+	height: 458px;
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 120px;
+	overflow: visible;
+	position: relative;
+}
+.high-end_center .high_img{
+	width: 940px;
+	height: 70px;
+	margin: 0 auto;
+}
+.high-end_center h2{
+	text-align: center;
+	margin-top: 24px;
+	font-size: 38px;
+	color: black;
+}
+.high-end_center .newhot{
+	width: 700px;
+	font-size: 12px;
+	color: #7a7a7a;
+	line-height: 24px;
+	letter-spacing: 2px;
+	margin: 10px auto;
+}
+.high-end_center .high_img2{
+	width: 279px;
+	height: 200px;
+	margin: 18px auto;
+}
+.high-end_center .emptybox{
+	width: 960px;
+	height: 196px;
+	box-shadow: 0px 10px 10px #b9b9b9;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#b9b9b9', Direction=135, Strength=10);
+	position: absolute;
+	background: white;
+	right: 0;
+	top: -120px;
+	border-radius: 10px;
+}
+.high-end_center .emptybox2{
+	width: 988px;
+	height: 167px;
+	box-shadow: 0px 10px 10px #dfdfdf;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#dfdfdf', Direction=135, Strength=10);
+	position: absolute;
+	background: white;
+	padding-top: 31px;
+	left: 0;
+	top: -142px;
+	border-radius: 10px;
+}
+.mrcl_icon_box{
+	display: inline-block;
+	width: 81px;
+	height: 84px;
+	margin-left: 9px;
+	margin-bottom: 25px;
+}
+.emptybox2_ul{
+	height: 100%;
+}
+.emptybox2_ul li{
+	float: left;
+	margin-left: 74px;
+	margin-right: 74px;
+	width: 99px;
+}
+.emptybox2_ul li .mzcz{
+	text-align: center;
+	color: #000000;
+	font-size: 24px;
+}
+
+/*中线擒龙样式*/
+
+.zxqlbox{
+	height: 100%;
+	width: 100%;
+	background: #f3f5f7;
+}
+.zxql_center{
+	height: 368px;
+	width: 1000px;
+	margin: 0 auto;
+	background: #f3f5f7;
+	overflow: visible;
+	position: relative;
+	padding-top: 62px;
+}
+.zxql_center .zx_firstp{
+	font-size: 37px;
+	color: black;
+	text-align: center;
+}
+.zxql_center .zx_secp{
+	width: 855px;
+	font-size: 13px;
+	color: #666565;
+	line-height: 24px;
+	margin: 10px auto;
+	letter-spacing: 1px;
+}
+.linebox{
+	width: 975px;
+	height: 107px;
+	position: absolute;
+	bottom: 104px;
+	left: 15px;
+}
+.zx_s1{
+	position: absolute;
+	font-size: 17px;
+	color: #000000;
+	top: 220px;
+	left: 132px;
+}
+.zx_s2{
+	position: absolute;
+	font-size: 17px;
+	color: #000000;
+	top: 220px;
+	right: 334px;
+}
+.zx_s3{
+	position: absolute;
+	font-size: 17px;
+	color: #000000;
+	bottom: 105px;
+	left: 320px;
+}
+
+/*机构席位样式*/
+
+.jgxwbox{
+	height: 100%;
+	width: 100%;
+	background: white;
+}
+.jgxw_center{
+	height: 293px;
+	width: 1000px;
+	margin: 0 auto;
+	top: -40px;
+	position: relative;
+	background: white;
+	padding-top: 40px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 10px #fae4c4;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#fae4c4', Direction=135, Strength=10);
+}
+.jgxw_center_left{
+	width: 567px;
+	height: 293px;
+	background: white;
+	margin-left: 48px;
+}
+.jg_firstp{
+	font-size: 38px;
+	color: #000000;
+}
+.jg_secp{
+	font-size: 13px;
+	color: #666565;
+	/*width: 376px;*/
+	line-height: 24px;
+	margin-top: 45px;
+	letter-spacing: 1px;
+}
+.jgxw_center_right{
+	width: 387px;
+	height: 293px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.jg_empty1{
+	width: 285px;
+	height: 236px;
+	position: absolute;
+	top: 0px;
+	right: 37px;
+	border: 1px solid #b6c9db;
+	border-radius: 10px;
+}
+.jg_empty2{
+	width: 223px;
+	height: 185px;
+	position: absolute;
+	top: 25px;
+	right: 68px;
+	border: 1px solid #e4eff9;
+	border-radius: 10px;
+}
+.truebox{
+	width: 198px;
+	height: 128px;
+	position: absolute;
+	top: 49px;
+	right: 76px;
+}
+
+/*底部样式*/
+
+.footer{
+	height: 328px;
+	background: #222222;
+	overflow: hidden;
+}
+.fo_firstp{
+	text-align: center;
+	font-size: 40px;
+	color: #ffcd32;
+	margin-top: 44px;
+	margin-bottom: 15px;
+}
+.fo_secp{
+	text-align: center;
+	font-size: 46px;
+	color: #e6ce61;
+	margin-bottom: 18px;
+}
+.fo_btn{
+	width: 392px;
+	height: 91px;
+	background: #FFCD32;
+	font-size: 36px;
+	text-align: center;
+	line-height: 91px;
+	color: #000000;
+	margin: 0 auto;
+	display: block;
+	border-radius: 10px;
+}

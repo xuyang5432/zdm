@@ -1,0 +1,418 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	display: block;
+}
+li{
+	list-style: none;
+}
+i{
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	background: url(../images/banner_01.jpg) no-repeat center;
+}
+.h_center{
+	height: 1080px;
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.pheadbox p{
+	color: #f2c980;
+	font-size: 40px;
+	text-align: center;
+}
+.pheadbox{
+	margin-top: 396px;
+}
+.redbox{
+	/*width: 312px;*/
+	width: 307px;
+	height: 145px;
+	background: rgba(59,7,8,0.8);
+	float: left;
+	margin-right: 2px;
+	padding: 12px;
+}
+.redbox h3{
+	color: #f2c980;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 400;
+}
+.redbox p{
+	color: #fff;
+	font-size: 15px;
+	line-height: 25px;
+}
+/*.succesbox{
+	margin-left: -11px;
+}
+.address{
+	margin-right: -1px;
+}*/
+
+
+
+
+.chart{
+	background: url(../images/chartBk_02.jpg) no-repeat center;
+}
+.c_center{
+	height: 1080px;
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.fiveyear{
+	margin-top: 46px;
+	margin-left: 126px;
+}
+.record_l{
+	width: 500px;
+	height: 253px;
+	float: left;
+	position: relative;
+	margin-top: 32px;
+}
+.record_r{
+	width: 500px;
+	height: 253px;
+	float: right;
+	margin-top: 32px;
+}
+.record_l span{
+	color: #dd0908;
+	font-size: 17px;
+}
+.record_l img{
+	margin-left: 96px;
+	margin-top: 1px;
+}
+.record_l p{
+	position: absolute;
+	font-size: 16px;
+	color: #ff0c07;
+}
+.record_l p:nth-of-type(1){
+	bottom: 77px;
+}
+.record_l p:nth-of-type(2){
+	bottom: 47px;
+}
+.record_l span:nth-of-type(1){
+	margin-left: 91px;
+	margin-right: 18px;
+}
+.record_l span:nth-of-type(2){
+	margin-right: 22px;
+}
+
+
+.record_r span{
+	color: #dd0908;
+	font-size: 17px;
+}
+.record_r img{
+	margin-left: 12px;
+	margin-top: 1px;
+}
+.record_r span:nth-of-type(1){
+	margin-left: 8px;
+	margin-right: 18px;
+}
+.record_r span:nth-of-type(2){
+	margin-right: 22px;
+}
+
+
+.yearbox{
+	margin-top: 317px;
+}
+.yearbox span{
+	font-size: 16px;
+	color: white;
+}
+.yearbox span:nth-of-type(1){
+	margin-right: 26px;
+}
+.yearbox span:nth-of-type(2){
+	margin-right: 58px;
+}
+.yearbox span:nth-of-type(3){
+	margin-right: 80px;
+}
+.yearbox span:nth-of-type(4){
+	margin-right: 80px;
+}
+.yearbox span:nth-of-type(5){
+	margin-right: 60px;
+}
+.yearbox span:nth-of-type(6){
+	margin-right: 32px;
+}
+.yearbox img{
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+/*案例展示*/
+
+.case{
+	background: url(../images/anlibk_02.jpg) no-repeat center;
+}
+.case_center{
+	height: 1013px;
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.caseshow{
+	width: 163px;
+	height: 32px;
+	margin-left: 395px;
+	margin-top: 57px;
+}
+.caseshow img{
+	float: left;
+}
+.caseshow span{
+	float: right;
+	color: #deb365;
+	font-size: 30px;
+	line-height: 32px;
+}
+.case_center p{
+	color: #fccd77;
+	font-size: 17px;
+	margin-top: 40px;
+	margin-left: 60px;
+	letter-spacing: 12px;
+}
+.tragedy{
+	font-size: 29px;
+}
+.case_img1{
+	margin-top: 70px;
+	margin-left: 75px;
+}
+
+
+/*产品介绍*/
+.product{
+	background: url(../images/productbk_02.jpg) no-repeat center;
+}
+.product_center{
+	height: 849px;
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.productshow{
+	width: 163px;
+	height: 32px;
+	margin-left: 426px;
+}
+.productshow img{
+	float: left;
+}
+.productshow span{
+	float: right;
+	color: #deb365;
+	font-size: 30px;
+	line-height: 32px;
+}
+.condition{
+	position: relative;
+}
+.condition img{
+	margin-top: 74px;
+	margin-left: 109px;
+}
+.condition h2{
+	position: absolute;
+	font-size: 34px;
+	color: #c3d5df;
+	right: 60px;
+	top: 13px;
+}
+.condition p{
+	float: right;
+	font-size: 14px;
+	color: #b7b8b9;
+	position: absolute;
+	width: 213px;
+	right: 60px;
+    top: 85px;
+}
+
+.intelligence{
+	position: relative;
+}
+.intelligence img{
+	position: absolute;
+	top:125px;
+	right: 61px;
+}
+.intelligence h2{
+	position: absolute;
+	font-size: 34px;
+	color: #c3d5df;
+	left: 110px;
+	top: 135px;
+}
+.intelligence p{
+	font-size: 14px;
+	color: #b7b8b9;
+	position: absolute;
+	width: 213px;
+	left: 110px;
+    top: 210px;
+}
+
+
+
+/*收费课程*/
+.course{
+	background: url(../images/coursebk.jpg) no-repeat center;
+}
+.course_center{
+	height: 593px;
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.courseshow{
+	width: 163px;
+	height: 32px;
+	margin-left: 426px;
+}
+.courseshow img{
+	float: left;
+}
+.courseshow span{
+	float: right;
+	color: #deb365;
+	font-size: 30px;
+	line-height: 32px;
+}
+.coursebox{
+	width: 852px;
+	height: 377px;
+	border: 1px solid black;
+	margin-top: 67px;
+	margin-left: 86px;
+}
+.coursebox_l{
+	margin-left: 9px;
+	margin-top: 21px;
+	float: left;
+}
+.coursebox_r{
+	position: relative;
+}
+.zuanshi{
+	position: absolute;
+	top: 24px;
+	right: 110px;
+}
+.coursebox_r p:nth-of-type(1){
+	position: absolute;
+	font-size: 16px;
+	color: #cce0ec;
+	right: 83px;
+	top: 55px;
+}
+.coursebox_r p:nth-of-type(2){
+	position: absolute;
+	font-size: 36px;
+	color: #cce0ec;
+	right: 45px;
+	top: 88px;
+	font-weight: 900;
+}
+.coursebox_r p:nth-of-type(3){
+	position: absolute;
+	font-size: 36px;
+	color: #cce0ec;
+	right: 37px;
+	top: 144px;
+	font-weight: 900;
+}
+.coursebox_r p:nth-of-type(4){
+	position: absolute;
+	font-size: 22px;
+	color: #ef1b1b;
+	right: 70px;
+	top: 212px;
+	font-weight: 600;
+	text-decoration: line-through;
+}
+.coursebox_r p:nth-of-type(5){
+	position: absolute;
+	font-size: 17px;
+	color: #cce0ec;
+	right: 36px;
+	top: 252px;
+}
+.coursebox_r .btn{
+	position: absolute;
+	right: 32px;
+	top: 295px;
+}
+
+
+/*尊享服务*/
+.footer{
+	background: url(../images/footerbk_02.jpg) no-repeat center;
+}
+.footer_center{
+	height: 334px;
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.footershow{
+	width: 163px;
+	height: 36px;
+	margin-left: 426px;
+}
+.footershow img{
+	float: left;
+}
+.footershow span{
+	float: right;
+	color: #deb365;
+	font-size: 30px;
+	line-height: 36px;
+}
+.footer_center ul{
+	margin-top: 68px;
+}
+.footer_center ul li{
+	float: left;
+}
+.footer_center ul li:nth-of-type(1){
+	margin-left: 119px;
+}
+.footer_center ul li:nth-of-type(2){
+	margin-left: 135px;
+}
+.footer_center ul li:nth-of-type(3){
+	margin-left: 143px;
+}
+.footer_center ul li:nth-of-type(4){
+	margin-left: 153px;
+}
+.footer_center ul li p{
+	color: #cfdff0;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 20px;
+}

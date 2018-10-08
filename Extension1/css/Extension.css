@@ -1,0 +1,411 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+i{
+	font-style: normal;
+}
+
+/*头部样式*/
+
+.head{
+	width: 100%;
+	height: 100%;
+	background: url(../images/bk_01.jpg) no-repeat center top #111016;
+}
+.head-center{
+	width: 1200px;
+	height: 895px;
+	margin: 0 auto;
+	padding-top: 23px;
+}
+.logo{
+	width: 358px;
+	height: 37px;
+	margin-bottom: 130px;
+}
+.head-left{
+	width: 755px;
+	height: 628px;
+	margin-left: -62px;
+	position: relative;
+	float: left;
+}
+.com-1box{
+	width: 755px;
+	height: 583px;
+}
+.com-2box{
+	width: 702px;
+	height: 367px;
+	position: absolute;
+	top: 26px;
+	left: 26px;
+}
+.com-3box{
+	width: 515px;
+	height: 31px;
+	position: absolute;
+	bottom: 0;
+	left:130px;
+}
+.com-4box{
+	width: 310px;
+	height: 287px;
+	position: absolute;
+	bottom: 100px;
+	left:0;
+}
+.head-right{
+	width: 507px;
+	height: 690px;
+	float: right;
+	padding-top: 38px;
+}
+.head-right-1box{
+	height: 40px;
+}
+.head-right-1box .icon-360{
+	width: 38px;
+	height: 40px;
+	display: inline-block;
+	margin-left: 24px;
+}
+.head-right-1box .s1{
+	line-height: 40px;
+	margin-left: 15px;
+	font-size: 29px;
+	vertical-align: top;
+	color: white;
+}
+.head-right .p1{
+	font-size: 72px;
+	color: white;
+	margin-left: 24px;
+	margin-top: 15px;
+}
+.span-box{
+	margin-left: 24px;
+	margin-top: 30px;
+}
+.span-box .s2{
+	font-size: 21px;
+	color: #cfd1d6;
+	line-height: 21px;
+	padding-left: 10px;
+	margin-right: 10px;
+	background: url(../images/circle.png) no-repeat 0px center;
+}
+.head-right .download{
+	display: block;
+	width: 314px;
+	height: 94px;
+	margin-left: 90px;
+	margin-top: 38px;
+}
+.head-right .portrait-box{
+	float: left;
+	margin-top: 60px;
+	margin-left: 17px;
+}
+.head-right ul li{
+	width: 87px;
+	height: 87px;
+	float: left;
+	margin-right: 8px;
+}
+
+/*人工智能选股样式*/
+
+.artificial{
+	width: 100%;
+	height: 100%;
+	background: url(../images/bk_02.jpg) no-repeat center top #f7f7f7;
+}
+.artificial-center{
+	width: 1200px;
+	height: 945px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.artificial-center .ar-h1{
+	font-size: 66px;
+	color: #31c8f5;
+	text-align: center;
+	line-height: 66px;
+}
+.artificial-center .ar-p1{
+	font-size: 24px;
+	color: #8d8d91;
+	text-align: center;
+	line-height: 24px;
+	margin-top: 26px;
+}
+.artificial-img1box{
+	width: 800px;
+	height: 546px;
+	margin: 36px auto;
+}
+.artificial-img2box{
+	width: 1127px;
+	height: 123px;
+	margin-top: 81px;
+}
+
+/*优秀讲师团队样式*/
+
+.team{
+	width: 100%;
+	height: 100%;
+	background: url(../images/bk_03.jpg) no-repeat center top #03050b;
+}
+.team-center{
+	width: 1200px;
+	height: 1014px;
+	margin: 0 auto;
+	padding-top: 47px;
+}
+.team-img1box{
+	width: 371px;
+	height: 74px;
+	margin: 0 auto;
+}
+.team-img2box{
+	width: 569px;
+	height: 154px;
+	margin: 76px auto 0 auto;
+}
+.team-img3box{
+	width: 1088px;
+	height: 29px;
+	margin: 45px auto 0 auto;
+}
+.teacherbox{
+	height: 370px;
+	margin-top: 19px;
+	margin-bottom: 70px;
+}
+.teacher-list{
+	width: 237px;
+	height: 370px;
+	float: left;
+	margin-right: 9px;
+}
+.teacherbox .first-li{
+	margin-left: -30px;
+}
+.team-center .download{
+	display: block;
+	width: 314px;
+	height: 100px;
+	margin: 0px auto;
+}
+
+/*3大战法样式*/
+.three-zf{
+	width: 100%;
+	height: 100%;
+	background: url(../images/bk_04.jpg) no-repeat center top #f7f7f7;
+}
+.three-zf-center{
+	width: 1200px;
+	height: 1373px;
+	margin: 0 auto;
+	padding-top: 67px;
+}
+.three-zf-head{
+	width: 842px;
+	height: 97px;
+	margin: 0 auto;
+}
+.rdt-box{
+	margin-left: 184px;
+	margin-top: 34px;
+}
+.rdt-box span{
+	background: url(../images/true.png) no-repeat left center;
+	font-size: 24px;
+	color: #9d9ea1;
+	padding-left: 40px;
+	line-height: 24px;
+	margin-right: 40px;
+}
+.one-box{
+	width: 1082px;
+	height: 339px;
+	margin-top: 62px;
+	margin-left: 21px;
+	margin-bottom: 38px;
+	position: relative;
+}
+.one-img1{
+	width: 1046px;
+	height: 301px;
+	position: absolute;
+	right: 0px;
+	top: 18px;
+	border: 2px solid #b9beca;
+}
+.one-img2{
+	width: 604px;
+	height: 339px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.one-font-box{
+	width: 356px;
+	height: 177px;
+	position: absolute;
+	top: 67px;
+	right: 63px;
+}
+.one-font-box .r-p1{
+	font-size: 32px;
+	color: #fbf806;
+	margin-bottom: 32px;
+}
+.one-font-box .r-p2{
+	font-size: 32px;
+	color: #ebeff7;
+	line-height: 54px;
+}
+.one-font-box .r-p3{
+	font-size: 32px;
+	color: #ebeff7;
+	line-height: 54px;
+}
+.two-box{
+	width: 1082px;
+	height: 339px;
+	position: relative;
+	margin-bottom: 55px;
+	margin-left: 55px;
+}
+.two-img1{
+	width: 1046px;
+	height: 301px;
+	position: absolute;
+	left: 0px;
+	top: 18px;
+	border: 2px solid #b9beca;
+}
+.two-img2{
+	width: 606px;
+	height: 340px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.two-font-box{
+	width: 366px;
+	height: 202px;
+	position: absolute;
+	top: 67px;
+	left: 50px;
+}
+.two-font-box .d-p1{
+	font-size: 32px;
+	color: #fbf806;
+	margin-bottom: 20px;
+	line-height: 32px;
+	margin-left: 40px;
+}
+.two-font-box .d-p{
+	font-size: 32px;
+	color: #ebeff7;
+	line-height: 54px;
+}
+	
+.two-font-box .d-p2{
+	margin-left: 57px;
+}
+.two-font-box .d-p4{
+	margin-left: 105px;
+}
+.three-box{
+	width: 1082px;
+	height: 339px;
+	position: relative;
+	margin-left: 21px;
+}
+.three-img1{
+	width: 1046px;
+	height: 301px;
+	position: absolute;
+	right: 0px;
+	top: 18px;
+	border: 2px solid #b9beca;
+}
+.three-img2{
+	width: 606px;
+	height: 340px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.three-font-box{
+	width: 407px;
+	height: 217px;
+	position: absolute;
+	top: 64px;
+	right: 52px;
+}
+.three-font-box .t-p1{
+	font-size: 32px;
+	color: #fbf806;
+	margin-bottom: 34px;
+	line-height: 32px;
+}
+.three-font-box .t-p{
+	font-size: 32px;
+	color: #ebeff7;
+	line-height: 54px;
+}
+	
+.three-font-box .t-p3{
+	margin-left: 38px;
+}
+.three-font-box .t-p4{
+	margin-left: 88px;
+}
+
+/*底部样式*/
+
+.footer{
+	width: 100%;
+	height: 100%;
+	background: #152146;
+}
+.footer-center{
+	height: 222px;
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 26px;
+}
+.footer .download {
+    display: block;
+    width: 505px;
+    height: 143px;
+    margin: 0 auto;
+}
+.footer .fx{
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	color: #98989a;
+	margin-top: 41px;
+	letter-spacing: 6px;
+}

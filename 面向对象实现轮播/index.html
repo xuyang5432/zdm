@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/slide.js"></script>
+<link rel="stylesheet" href="css/slide.css" />
+</head>
+<body>
+	
+<div id="div1" class="slide"></div>	
+
+
+<script>
+new Slide($("#div1"), [
+	{"img":"images/001.jpg", "title":"标题1", "href":"http://www.baidu.com"},
+	{"img":"images/002.jpg", "title":"标题2", "href":"http://www.163.com"},
+	{"img":"images/003.jpg", "title":"标题3", "href":"http://www.sina.com.cn"},
+	{"img":"images/004.jpg", "title":"标题4", "href":"http://www.1000phone.com"}
+], 810, 320, 2, 3000, "left", 40).init();
+</script>
+
+</body>
+</html>

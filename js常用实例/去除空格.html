@@ -14,6 +14,8 @@
 
 <body>
     <script>
+        /*1.0.0*/
+        
         //去除空格  type 1-所有空格  2-前后空格  3-前空格 4-后空格
         function trim(str, type) {
             switch (type) {
@@ -28,8 +30,27 @@
                 default:
                     return str;
             }
-        }
+        };
         console.log(trim('   1  1  1  1  1', 1));
+
+        /*2.0.0*/
+
+        //清除左右空格
+        function trim(str) {
+            return str.replace(/(^\s*)|(\s*$)/g, "");
+        }
+        //清除所有空格
+        function trimAll(str) {
+            return str.replace(/\s+/g, "");
+        }
+        //清除左空格
+        function trimLeft(str) {
+            return str.replace(/(^\s*)/g, "");
+        }
+        //清除右空格
+        function trimRight(str) {
+            return str.replace(/(\s*$)/g, "");
+        }
     </script>
 </body>
 

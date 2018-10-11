@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Document
+    </title>
+    <p style="color:blue">
+    </p>
+</head>
+
+<body>
+    <script>
+        //去除空格  type 1-所有空格  2-前后空格  3-前空格 4-后空格
+        function trim(str, type) {
+            switch (type) {
+                case 1:
+                    return str.replace(/\s+/g, "");
+                case 2:
+                    return str.replace(/(^\s*)|(\s*$)/g, "");
+                case 3:
+                    return str.replace(/(^\s*)/g, "");
+                case 4:
+                    return str.replace(/(\s*$)/g, "");
+                default:
+                    return str;
+            }
+        }
+        console.log(trim('   1  1  1  1  1', 1));
+    </script>
+</body>
+
+</html>
